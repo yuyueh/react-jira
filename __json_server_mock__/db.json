@@ -1,3 +1,45 @@
 {
-    "users": []
+    "users": [
+        { "name": "ed", "id": 1 },
+        { "name": "meteor", "id": 2 },
+        { "name": "arlen", "id": 3 },
+        { "name": "tina", "id": 4 }
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "name": "react讀書計畫",
+            "ownerId": 1,
+            "organization": "前端團隊",
+            "created": 1604989757139
+        },
+        {
+            "id": 2,
+            "name": "docker建製",
+            "ownerId": 3,
+            "organization": "後端團隊",
+            "created": 1604989757139
+        },
+        {
+            "id": 3,
+            "name": "面試準備",
+            "ownerId": 1,
+            "organization": "前端團隊",
+            "created": 1546300800000
+        },
+        {
+            "id": 4,
+            "name": "前端入門學習",
+            "ownerId": 2,
+            "organization": "前端團隊",
+            "created": 1604980000011
+        },
+        {
+            "id": 5,
+            "name": "新樣板設計",
+            "ownerId": 2,
+            "organization": "前端團隊",
+            "created": 1546900800000
+        }
+    ]
 }
